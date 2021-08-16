@@ -90,35 +90,19 @@ small {
     }
 
 
-.svg-icon {
+.fab {
     width: 1em;
     height: 1em;
     padding: 10px;
-}
-
-.svg-icon path,
-.svg-icon polygon,
-.svg-icon rect {
-    fill: #4691f6;
-}
-
-.svg-icon path:hover,
-.svg-icon polygon:hover,
-.svg-icon rect:hover {
-    fill: #ffffff;
-}
-
-.svg-icon circle {
-    stroke:#f4f6f8;
-    stroke-width: 1;
-}
-
-.svg-icon:hover {
+    color: hsl(223, 87%, 63%)
+    }
+    
+        
+.fab:hover {
     background-color: #4691f6;
     border-radius: 30px;
-    stroke:#ffff;
-    stroke-width: 1.5;
-}
+    color: white;
+    }
 
 a{
     text-decoration: none;
